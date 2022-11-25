@@ -10,21 +10,72 @@ Rettangolo rettangolo2= new Rettangolo();
 Rettangolo rettangolo3= new Rettangolo();
 Rettangolo rettangolo4= new Rettangolo();
 
-Console.WriteLine("Inserire la base del rettangolo:");
+Console.WriteLine("Rettangolo1:");
+Console.Write("Inserire la base del rettangolo:");
 rettangolo1.baseRettangolo = int.Parse(Console.ReadLine());
-Console.WriteLine("Inserire l'altezza del rettangolo:");
+Console.Write("Inserire l'altezza del rettangolo:");
 rettangolo1.altezzaRettangolo = int.Parse((Console.ReadLine()));
 
 
-Console.WriteLine("Il perimetro sarà: " + rettangolo1.CalcoloPerimetro()+ " cm");
-Console.WriteLine("Il perimetro sarà: " + rettangolo1.CalcoloArea() + " cm");
+Console.WriteLine();
+
+Console.WriteLine("--Rettangolo1--");
+Console.WriteLine("Base: " + rettangolo1.baseRettangolo);
+Console.WriteLine("Altezza: " + rettangolo1.altezzaRettangolo);
+Console.WriteLine("Perimetro: " + rettangolo1.CalcoloPerimetro()+ " cm");
+Console.WriteLine("Area: " + rettangolo1.CalcoloArea() + " cm2");
 
 
-Console.WriteLine(rettangolo1.baseRettangolo);
-Console.WriteLine(rettangolo1.altezzaRettangolo);
+
 
 
 /*Istanziare tanti rettangoli con nome diverso e attributi diversi 
  * (baseRettangolo e altezzaRettangolo) e provate a stampare le loro
  * proprietà ad esemp  io con un metodo StampaRettangolo che vi stampi il vostro rettangolo*/
+Console.WriteLine();
+
+Console.WriteLine("Rettangolo2:");
+Console.Write("Inserire la base del rettangolo:");
+rettangolo2.baseRettangolo = int.Parse(Console.ReadLine());
+Console.Write("Inserire l'altezza del rettangolo:");
+rettangolo2.altezzaRettangolo = int.Parse((Console.ReadLine()));
+
+Console.WriteLine();
+
+Console.Write("--Rettangolo2--");
+Console.WriteLine("Base: " + rettangolo2.baseRettangolo);
+Console.WriteLine("Altezza: " + rettangolo2.altezzaRettangolo);
+Console.WriteLine("Perimetro: " + rettangolo2.CalcoloPerimetro() + " cm");
+Console.WriteLine("Area: " + rettangolo2.CalcoloArea() + " cm2");
+
+
+Console.WriteLine();
+
+Console.WriteLine("Rettangolo3:");
+Console.Write("Inserire la base del rettangolo:");
+rettangolo3.baseRettangolo = int.Parse(Console.ReadLine());
+Console.Write("Inserire l'altezza del rettangolo:");
+rettangolo3.altezzaRettangolo = int.Parse((Console.ReadLine()));
+
+Console.WriteLine();
+Console.WriteLine("--Rettangolo3--");
+Console.WriteLine("Base: " + rettangolo3.baseRettangolo);
+Console.WriteLine("Altezza: " + rettangolo3.altezzaRettangolo);
+Console.WriteLine("Perimetro: " + rettangolo3.CalcoloPerimetro() + " cm");
+Console.WriteLine("Area: " + rettangolo3.CalcoloArea() + " cm2");
+
+Console.WriteLine();
+
+Console.WriteLine("Rettangolo4:");
+Console.Write("Inserire la base del rettangolo:");
+rettangolo4.baseRettangolo = int.Parse(Console.ReadLine());
+Console.Write("Inserire l'altezza del rettangolo:");
+rettangolo4.altezzaRettangolo = int.Parse((Console.ReadLine()));
+
+Console.WriteLine();
+Console.WriteLine("--Rettangolo4--");
+Console.WriteLine("Base: " + rettangolo4.baseRettangolo);
+Console.WriteLine("Altezza: " + rettangolo4.altezzaRettangolo);
+Console.WriteLine("Perimetro: " + rettangolo4.CalcoloPerimetro() + " cm");
+Console.WriteLine("Area: " + rettangolo4.CalcoloArea() + " cm2");
 
